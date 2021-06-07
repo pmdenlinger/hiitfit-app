@@ -13,7 +13,14 @@ struct ExerciseView: View {
     let exerciseNames = ["Squat", "Step Up", "Burpee", "Sun Salute"]
     
     var body: some View {
-      Text(exerciseNames[index])
+        VStack {
+            Text(exerciseNames[index])
+        }.font(.largeTitle)
+      Text("Video player")
+      Text("Timer")
+      Text("Start/Done button")
+      Text("Rating")
+      Text("History button")
     }
   }
         
