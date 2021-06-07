@@ -13,6 +13,7 @@
 		CECC1DFC266DC09A0097DAE8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECC1DFB266DC09A0097DAE8 /* Preview Assets.xcassets */; };
 		CECC1E04266DC4F80097DAE8 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC1E03266DC4F80097DAE8 /* WelcomeView.swift */; };
 		CECC1E06266DC50F0097DAE8 /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC1E05266DC50F0097DAE8 /* ExerciseView.swift */; };
+		CEF98685266EDD770015E872 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF98684266EDD770015E872 /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CECC1DFD266DC09A0097DAE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CECC1E03266DC4F80097DAE8 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		CECC1E05266DC50F0097DAE8 /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
+		CEF98684266EDD770015E872 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				CECC1DF6266DC0930097DAE8 /* ContentView.swift */,
 				CECC1E03266DC4F80097DAE8 /* WelcomeView.swift */,
 				CECC1E05266DC50F0097DAE8 /* ExerciseView.swift */,
+				CEF98684266EDD770015E872 /* HeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEF98685266EDD770015E872 /* HeaderView.swift in Sources */,
 				CECC1E06266DC50F0097DAE8 /* ExerciseView.swift in Sources */,
 				CECC1DF7266DC0930097DAE8 /* ContentView.swift in Sources */,
 				CECC1E04266DC4F80097DAE8 /* WelcomeView.swift in Sources */,
