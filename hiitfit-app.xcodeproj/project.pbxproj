@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CECC1DF5266DC0930097DAE8 /* hiitfit_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC1DF4266DC0930097DAE8 /* hiitfit_appApp.swift */; };
+		CECC1DF5266DC0930097DAE8 /* hiitfit_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC1DF4266DC0930097DAE8 /* hiitfit_App.swift */; };
 		CECC1DF7266DC0930097DAE8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC1DF6266DC0930097DAE8 /* ContentView.swift */; };
 		CECC1DF9266DC09A0097DAE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECC1DF8266DC09A0097DAE8 /* Assets.xcassets */; };
 		CECC1DFC266DC09A0097DAE8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECC1DFB266DC09A0097DAE8 /* Preview Assets.xcassets */; };
+		CECC1E04266DC4F80097DAE8 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC1E03266DC4F80097DAE8 /* WelcomeView.swift */; };
+		CECC1E06266DC50F0097DAE8 /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC1E05266DC50F0097DAE8 /* ExerciseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CECC1DF1266DC0930097DAE8 /* hiitfit-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hiitfit-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CECC1DF4266DC0930097DAE8 /* hiitfit_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hiitfit_appApp.swift; sourceTree = "<group>"; };
+		CECC1DF4266DC0930097DAE8 /* hiitfit_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hiitfit_App.swift; sourceTree = "<group>"; };
 		CECC1DF6266DC0930097DAE8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CECC1DF8266DC09A0097DAE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CECC1DFB266DC09A0097DAE8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CECC1DFD266DC09A0097DAE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECC1E03266DC4F80097DAE8 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		CECC1E05266DC50F0097DAE8 /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +56,8 @@
 		CECC1DF3266DC0930097DAE8 /* hiitfit-app */ = {
 			isa = PBXGroup;
 			children = (
-				CECC1DF4266DC0930097DAE8 /* hiitfit_appApp.swift */,
-				CECC1DF6266DC0930097DAE8 /* ContentView.swift */,
+				CECC1DF4266DC0930097DAE8 /* hiitfit_App.swift */,
+				CECC1E07266DC5260097DAE8 /* Views */,
 				CECC1DF8266DC09A0097DAE8 /* Assets.xcassets */,
 				CECC1DFD266DC09A0097DAE8 /* Info.plist */,
 				CECC1DFA266DC09A0097DAE8 /* Preview Content */,
@@ -67,6 +71,16 @@
 				CECC1DFB266DC09A0097DAE8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CECC1E07266DC5260097DAE8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CECC1DF6266DC0930097DAE8 /* ContentView.swift */,
+				CECC1E03266DC4F80097DAE8 /* WelcomeView.swift */,
+				CECC1E05266DC50F0097DAE8 /* ExerciseView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CECC1E06266DC50F0097DAE8 /* ExerciseView.swift in Sources */,
 				CECC1DF7266DC0930097DAE8 /* ContentView.swift in Sources */,
-				CECC1DF5266DC0930097DAE8 /* hiitfit_appApp.swift in Sources */,
+				CECC1E04266DC4F80097DAE8 /* WelcomeView.swift in Sources */,
+				CECC1DF5266DC0930097DAE8 /* hiitfit_App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
