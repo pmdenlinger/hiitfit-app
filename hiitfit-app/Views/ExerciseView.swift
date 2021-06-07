@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import AVKit
 
 struct ExerciseView: View {
     
@@ -17,7 +18,16 @@ struct ExerciseView: View {
         HeaderView(exerciseName: exerciseNames[index])
             .font(.title2)
         
-      Text("Video player")
+        VStack {
+            if let url = Bundle.main.url(
+              forResource: videoNames[index],
+              withExtension: "mp4") {
+                VideoPlayer(player: AVPlayer(url: url))
+            } else {
+                Text("Couldn’t find \(videoNames[index]).mp4")
+                  .foregroundColor(.red)
+            }
+        }
       Text("Timer")
       Text("Start/Done button")
       Text("Rating")
